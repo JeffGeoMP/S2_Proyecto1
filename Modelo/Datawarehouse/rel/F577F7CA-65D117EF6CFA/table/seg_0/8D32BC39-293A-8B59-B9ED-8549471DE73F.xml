@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8D32BC39-293A-8B59-B9ED-8549471DE73F" name="Sucursal">
+<createdBy>JeffGeo</createdBy>
+<createdTime>2022-03-08 05:40:13 UTC</createdTime>
+<generatorID>11F52DB5-559C-36FF-A996-16B2AF787449</generatorID>
+<ownerDesignName>Datawarehouse</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdSucursal" id="F5D06717-C6C2-1116-0696-B4B09FA6CFA4">
+<createdBy>JeffGeo</createdBy>
+<createdTime>2022-03-08 05:40:13 UTC</createdTime>
+<generatorID>7DB08B2F-DF0C-B4B3-44D2-3335A4C4F16E</generatorID>
+<ownerDesignName>Datawarehouse</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Codigo" id="F4F3AAF6-1F8C-A785-73AE-EB9582F9C072">
+<createdBy>JeffGeo</createdBy>
+<createdTime>2022-03-08 05:40:13 UTC</createdTime>
+<generatorID>DB7A9E7B-3863-5FD9-43F5-6931CF3F86BE</generatorID>
+<ownerDesignName>Datawarehouse</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="2BFA756B-2759-26F0-0BAA-F7394F205CD7">
+<createdBy>JeffGeo</createdBy>
+<createdTime>2022-03-08 05:40:13 UTC</createdTime>
+<generatorID>19AF40FF-7D85-9BC1-2F61-889FB062B76F</generatorID>
+<ownerDesignName>Datawarehouse</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Direccion" id="8F91787B-77DF-FF77-B541-709EA1DB1F64">
+<createdBy>JeffGeo</createdBy>
+<createdTime>2022-03-08 05:40:13 UTC</createdTime>
+<generatorID>2AFC2DCC-2009-9B84-D0F2-A4955FC07FB4</generatorID>
+<ownerDesignName>Datawarehouse</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="77E1DFB9-4A4F-014C-396F-0B2C7847F363" name="Sucursal_PK">
+<createdBy>JeffGeo</createdBy>
+<createdTime>2022-03-08 05:40:13 UTC</createdTime>
+<generatorID>27AE216A-332F-C3CC-9F2D-6EB496B97AFC</generatorID>
+<ownerDesignName>Datawarehouse</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5D06717-C6C2-1116-0696-B4B09FA6CFA4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

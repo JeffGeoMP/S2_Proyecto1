@@ -1,0 +1,190 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C5357830-5B39-F1E2-031F-D47CA5272515" name="Compra">
+<createdBy>JeffGeo</createdBy>
+<createdTime>2022-03-08 05:40:12 UTC</createdTime>
+<generatorID>57D43D99-764F-6AAE-BEA6-2312817FE3AA</generatorID>
+<ownerDesignName>Datawarehouse</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdCompra" id="6718854D-DE1A-3382-968F-6A8F0EF93254">
+<createdBy>JeffGeo</createdBy>
+<createdTime>2022-03-08 05:40:12 UTC</createdTime>
+<generatorID>94EEBECA-498B-6021-7711-13C72ACD4264</generatorID>
+<ownerDesignName>Datawarehouse</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Unidades" id="B4A19849-F1C8-2F8F-12C2-DAB1B4BA6CB3">
+<createdBy>JeffGeo</createdBy>
+<createdTime>2022-03-08 05:40:12 UTC</createdTime>
+<generatorID>7A9125FF-44E9-ECA5-5E55-D1F106683E74</generatorID>
+<ownerDesignName>Datawarehouse</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Costo" id="A484F152-4BD6-C45F-C75C-DA39F6BBDD3D">
+<createdBy>JeffGeo</createdBy>
+<createdTime>2022-03-08 05:40:12 UTC</createdTime>
+<generatorID>6625267D-9C01-2A79-FC17-C90DEF989F12</generatorID>
+<ownerDesignName>Datawarehouse</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sucursal_IdSucursal" id="624DFFC9-5037-8077-6177-A290745307F8">
+<createdBy>JeffGeo</createdBy>
+<createdTime>2022-03-08 05:40:13 UTC</createdTime>
+<generatorID>4FA44D7B-BADD-D251-2C20-FBFE533D3FD9</generatorID>
+<ownerDesignName>Datawarehouse</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="922A36A7-5A8D-F1FA-B2F2-88AA035885F5" referredColumn="F5D06717-C6C2-1116-0696-B4B09FA6CFA4"/>
+</associations>
+</Column>
+<Column name="Producto_IdProducto" id="0A90C0EE-D928-3F01-DF69-999586F60952">
+<createdBy>JeffGeo</createdBy>
+<createdTime>2022-03-08 05:40:13 UTC</createdTime>
+<generatorID>02510ACB-819B-00F0-BE73-1B688B29A3AA</generatorID>
+<ownerDesignName>Datawarehouse</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DB851738-1E0B-16F2-E24B-985FED54EA8D" referredColumn="335B2BFE-5FD6-70FB-3D54-FB9D6559421D"/>
+</associations>
+</Column>
+<Column name="Proveedor_IdProveedor" id="7347AA51-397F-CBF3-F4C1-F0BC492C6F64">
+<createdBy>JeffGeo</createdBy>
+<createdTime>2022-03-08 05:40:13 UTC</createdTime>
+<generatorID>1186FD1F-0115-A9BF-56D3-5F731800079F</generatorID>
+<ownerDesignName>Datawarehouse</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4E4D387B-AC9E-34F9-EE8D-E66A6B6097FB" referredColumn="DE735041-5AB5-8915-A9D7-6D7E7C35C4BA"/>
+</associations>
+</Column>
+<Column name="Tiempo_IdFecha" id="FC7D7D2F-6B65-54F2-FB6E-B50A385793D8">
+<createdBy>JeffGeo</createdBy>
+<createdTime>2022-03-08 05:40:13 UTC</createdTime>
+<generatorID>89E11087-8625-7AD6-B847-A754D03902AD</generatorID>
+<ownerDesignName>Datawarehouse</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="71E2C725-74DB-1A90-AB9D-F364B0A733A4" referredColumn="355D2152-47DD-E933-A010-B563A01881E4"/>
+</associations>
+</Column>
+<Column name="Region_IdRegion" id="508CCBCE-758F-75CA-0B59-B41955E90DA1">
+<createdBy>JeffGeo</createdBy>
+<createdTime>2022-03-08 05:40:13 UTC</createdTime>
+<generatorID>A1E56C60-566E-86C7-D43A-91F705E4757F</generatorID>
+<ownerDesignName>Datawarehouse</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5FA7D68B-476B-7C0F-55D7-C312F448AC21" referredColumn="AFDA5B47-7071-1998-DBBC-9613E4014B14"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2C3CCEA7-A823-6A6D-EF49-7382712B5DD4" name="Compra_PK">
+<createdBy>JeffGeo</createdBy>
+<createdTime>2022-03-08 05:40:13 UTC</createdTime>
+<generatorID>DAFBE71A-A31A-4EAA-A375-074AE51568BF</generatorID>
+<ownerDesignName>Datawarehouse</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6718854D-DE1A-3382-968F-6A8F0EF93254"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="41F94682-23F1-8B65-8711-B481984D05F8" name="Compra_Region_FK">
+<createdBy>JeffGeo</createdBy>
+<createdTime>2022-03-08 05:40:13 UTC</createdTime>
+<generatorID>259555D8-A148-4F77-4A7D-06D8C8059A13</generatorID>
+<ownerDesignName>Datawarehouse</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="508CCBCE-758F-75CA-0B59-B41955E90DA1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2C4B8541-E68E-B646-10B2-3C3FA2183E8B" name="Compra_Sucursal_FK">
+<createdBy>JeffGeo</createdBy>
+<createdTime>2022-03-08 05:40:13 UTC</createdTime>
+<generatorID>85FD1223-2E34-D6F0-E9DC-7EFE470C7A23</generatorID>
+<ownerDesignName>Datawarehouse</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="624DFFC9-5037-8077-6177-A290745307F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E7C66F1B-A7B6-25D6-EEF5-3E7C65ADE896" name="Compra_Producto_FK">
+<createdBy>JeffGeo</createdBy>
+<createdTime>2022-03-08 05:40:13 UTC</createdTime>
+<generatorID>807F2BDE-BAB4-4AB8-59BD-3341CB389D67</generatorID>
+<ownerDesignName>Datawarehouse</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A90C0EE-D928-3F01-DF69-999586F60952"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C4B23EF2-E463-F7FD-BA5A-BE4644DAC986" name="Compra_Proveedor_FK">
+<createdBy>JeffGeo</createdBy>
+<createdTime>2022-03-08 05:40:13 UTC</createdTime>
+<generatorID>A72EF977-D280-696F-F09E-760550FB310D</generatorID>
+<ownerDesignName>Datawarehouse</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7347AA51-397F-CBF3-F4C1-F0BC492C6F64"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C82A7AC2-0AA2-1F2D-9012-BDA0EE967E19" name="Compra_Tiempo_FK">
+<createdBy>JeffGeo</createdBy>
+<createdTime>2022-03-08 05:40:13 UTC</createdTime>
+<generatorID>077352A8-2587-2A07-A4F0-49B6CCA7F934</generatorID>
+<ownerDesignName>Datawarehouse</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC7D7D2F-6B65-54F2-FB6E-B50A385793D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

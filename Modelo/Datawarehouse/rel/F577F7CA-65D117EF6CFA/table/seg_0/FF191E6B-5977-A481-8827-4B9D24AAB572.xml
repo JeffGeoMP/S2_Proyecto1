@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FF191E6B-5977-A481-8827-4B9D24AAB572" name="Cliente">
+<createdBy>JeffGeo</createdBy>
+<createdTime>2022-03-08 05:40:12 UTC</createdTime>
+<generatorID>6D7C4E91-7FC0-D5E9-87DE-7E64C240303E</generatorID>
+<ownerDesignName>Datawarehouse</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdCliente" id="4D284A17-272F-52F6-05EB-C5B45EE8D1F5">
+<createdBy>JeffGeo</createdBy>
+<createdTime>2022-03-08 05:40:12 UTC</createdTime>
+<generatorID>B9EA6326-0CC9-8DE4-6A0A-1BB528C0B170</generatorID>
+<ownerDesignName>Datawarehouse</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Codigo" id="6755122A-0B6D-E786-9E9E-48E2C64328A4">
+<createdBy>JeffGeo</createdBy>
+<createdTime>2022-03-08 05:40:12 UTC</createdTime>
+<generatorID>663024FA-D8E9-4910-9F9B-02C96C24097D</generatorID>
+<ownerDesignName>Datawarehouse</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="73C7103B-19B3-F3D1-4666-8A9F4A89B1A8">
+<createdBy>JeffGeo</createdBy>
+<createdTime>2022-03-08 05:40:12 UTC</createdTime>
+<generatorID>2B0ED33F-D5FD-A8EB-C019-FCD980551874</generatorID>
+<ownerDesignName>Datawarehouse</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipo" id="C96B8C9C-BEBE-87E5-4ABA-8CCCAE9B9BA7">
+<createdBy>JeffGeo</createdBy>
+<createdTime>2022-03-08 05:40:12 UTC</createdTime>
+<generatorID>7C4A05F3-4DD2-AAB9-1BE8-2D21C727DBEA</generatorID>
+<ownerDesignName>Datawarehouse</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Direccion" id="9CF7E32A-2AB2-92BC-A389-DA4EE3470B9C">
+<createdBy>JeffGeo</createdBy>
+<createdTime>2022-03-08 05:40:12 UTC</createdTime>
+<generatorID>B67DE19C-1A01-2C3C-1040-694315E43A6F</generatorID>
+<ownerDesignName>Datawarehouse</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Numero" id="C91F33F2-4075-AB0E-07A7-ADE1F9E1CFBF">
+<createdBy>JeffGeo</createdBy>
+<createdTime>2022-03-08 05:40:12 UTC</createdTime>
+<generatorID>E6E91A5A-469C-2B27-ED66-EF42DF1A31FC</generatorID>
+<ownerDesignName>Datawarehouse</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="36A1C503-F2AE-0B92-8417-4A624422B1BC" name="Cliente_PK">
+<createdBy>JeffGeo</createdBy>
+<createdTime>2022-03-08 05:40:12 UTC</createdTime>
+<generatorID>512CC949-2187-013D-EC04-D11A44487036</generatorID>
+<ownerDesignName>Datawarehouse</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D284A17-272F-52F6-05EB-C5B45EE8D1F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

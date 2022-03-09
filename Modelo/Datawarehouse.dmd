@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Datawarehouse" id="6D55FDAD-677A-FCB3-FC9E-84495E85D3DF" version="3.5">
+<createdBy>JeffGeo</createdBy>
+<createdTime>2022-03-08 03:36:55 UTC</createdTime>
+<ownerDesignName>Datawarehouse</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>6D55FDAD-677A-FCB3-FC9E-84495E85D3DF</designId>
+</OSDM_Design>

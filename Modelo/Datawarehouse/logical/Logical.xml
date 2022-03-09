@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="854FF1E7-A30B-C816-3C50-6E74F32C12CD" mainViewID="7E1E5ED3-F940-9857-C0CE-64E34404AA50">
+<createdBy>JeffGeo</createdBy>
+<createdTime>2022-03-08 03:36:55 UTC</createdTime>
+<ownerDesignName>Datawarehouse</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

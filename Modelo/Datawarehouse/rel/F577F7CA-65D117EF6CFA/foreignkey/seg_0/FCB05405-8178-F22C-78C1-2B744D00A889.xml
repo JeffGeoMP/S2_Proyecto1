@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FCB05405-8178-F22C-78C1-2B744D00A889" containerWithKeyObject="3F4AF446-A714-98E3-4F73-F7A6711491D9" localFKIndex="BE6C51A7-670F-2EDF-7461-5C24A3A9C941" name="Venta_Sucursal_FK">
+<createdBy>JeffGeo</createdBy>
+<createdTime>2022-03-08 05:40:13 UTC</createdTime>
+<generatorID>F03CC20D-02CC-5C12-062C-12BEDF1B4D53</generatorID>
+<ownerDesignName>Datawarehouse</ownerDesignName>
+<referredTableLongName>Sucursal</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8D32BC39-293A-8B59-B9ED-8549471DE73F</referredTableID>
+<keyObject>77E1DFB9-4A4F-014C-396F-0B2C7847F363</keyObject>
+<referredKeyID>77E1DFB9-4A4F-014C-396F-0B2C7847F363</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdSucursal</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7BB222A5-1134-BBE5-A040-A4B3F76E87A3" name="Venta">
+<createdBy>JeffGeo</createdBy>
+<createdTime>2022-03-08 04:21:34 UTC</createdTime>
+<ownerDesignName>Datawarehouse</ownerDesignName>
+<engineerTo>
+<item key="F577F7CA-0063-44E7-B9C0-65D117EF6CFA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdVenta" id="56368A96-55CD-A181-0C50-C00BAE4F28A8">
+<createdBy>JeffGeo</createdBy>
+<createdTime>2022-03-08 04:21:39 UTC</createdTime>
+<ownerDesignName>Datawarehouse</ownerDesignName>
+<engineerTo>
+<item key="F577F7CA-0063-44E7-B9C0-65D117EF6CFA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Unidades" id="EE075875-CA5D-2B24-6054-3DCD01871D59">
+<createdBy>JeffGeo</createdBy>
+<createdTime>2022-03-08 04:21:50 UTC</createdTime>
+<ownerDesignName>Datawarehouse</ownerDesignName>
+<engineerTo>
+<item key="F577F7CA-0063-44E7-B9C0-65D117EF6CFA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PrecioUnitario" id="D984E5A4-4A70-15DE-F25A-FFEC9100434A">
+<createdBy>JeffGeo</createdBy>
+<createdTime>2022-03-08 04:22:03 UTC</createdTime>
+<ownerDesignName>Datawarehouse</ownerDesignName>
+<engineerTo>
+<item key="F577F7CA-0063-44E7-B9C0-65D117EF6CFA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdCliente" id="52514162-68D8-E60A-B6C0-283634F7E7A4">
+<createdBy>JeffGeo</createdBy>
+<createdTime>2022-03-08 04:28:30 UTC</createdTime>
+<generatorID>5886445C-210B-2163-7452-7C418FF244F4</generatorID>
+<ownerDesignName>Datawarehouse</ownerDesignName>
+<engineerTo>
+<item key="F577F7CA-0063-44E7-B9C0-65D117EF6CFA" value="true"/>
+</engineerTo>
+<referedAttribute>B9EA6326-0CC9-8DE4-6A0A-1BB528C0B170</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdFecha" id="EE398470-DB7D-C89B-DA93-8BAB157B7F8D">
+<createdBy>JeffGeo</createdBy>
+<createdTime>2022-03-08 04:28:50 UTC</createdTime>
+<generatorID>942C4F99-4920-AB40-D40A-CA29A034BBFA</generatorID>
+<ownerDesignName>Datawarehouse</ownerDesignName>
+<engineerTo>
+<item key="F577F7CA-0063-44E7-B9C0-65D117EF6CFA" value="true"/>
+</engineerTo>
+<referedAttribute>86E8E7F3-DBA7-22D6-593C-6769733E25EA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdVendedor" id="BC9E6F0D-8743-C409-DF02-0361F7043D0A">
+<createdBy>JeffGeo</createdBy>
+<createdTime>2022-03-08 04:28:57 UTC</createdTime>
+<generatorID>84AD581A-7E7A-FB67-FC45-F98C3CED4410</generatorID>
+<ownerDesignName>Datawarehouse</ownerDesignName>
+<engineerTo>
+<item key="F577F7CA-0063-44E7-B9C0-65D117EF6CFA" value="true"/>
+</engineerTo>
+<referedAttribute>0D31BDA8-5088-A647-2C82-22087B273A66</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdSucursal" id="D88F1950-D05D-F4C9-D9E8-2AE71F6B4988">
+<createdBy>JeffGeo</createdBy>
+<createdTime>2022-03-08 04:29:20 UTC</createdTime>
+<generatorID>F03CC20D-02CC-5C12-062C-12BEDF1B4D53</generatorID>
+<ownerDesignName>Datawarehouse</ownerDesignName>
+<engineerTo>
+<item key="F577F7CA-0063-44E7-B9C0-65D117EF6CFA" value="true"/>
+</engineerTo>
+<referedAttribute>7DB08B2F-DF0C-B4B3-44D2-3335A4C4F16E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdProducto" id="F019D238-DB33-036F-0FFD-551E2031A0B0">
+<createdBy>JeffGeo</createdBy>
+<createdTime>2022-03-08 04:29:42 UTC</createdTime>
+<generatorID>DFAB8130-7BF7-06BC-BD00-9B55022A22A4</generatorID>
+<ownerDesignName>Datawarehouse</ownerDesignName>
+<engineerTo>
+<item key="F577F7CA-0063-44E7-B9C0-65D117EF6CFA" value="true"/>
+</engineerTo>
+<referedAttribute>5F4FC08E-B3FF-3CCA-5AA4-8B5E2ED2D987</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdRegion" id="1794A3F9-2681-5880-53C0-A6468FA47797">
+<createdBy>JeffGeo</createdBy>
+<createdTime>2022-03-08 05:39:33 UTC</createdTime>
+<generatorID>BBE34181-0EDE-4147-463B-467BF7F64BC7</generatorID>
+<ownerDesignName>Datawarehouse</ownerDesignName>
+<engineerTo>
+<item key="F577F7CA-0063-44E7-B9C0-65D117EF6CFA" value="true"/>
+</engineerTo>
+<referedAttribute>456B8A1E-CCC9-A150-CD92-BD75CD4256DC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="881789BD-5A6F-B996-9F92-0755E9198444" name="Venta PK">
+<createdBy>JeffGeo</createdBy>
+<createdTime>2022-03-08 04:21:48 UTC</createdTime>
+<ownerDesignName>Datawarehouse</ownerDesignName>
+<engineerTo>
+<item key="F577F7CA-0063-44E7-B9C0-65D117EF6CFA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>56368A96-55CD-A181-0C50-C00BAE4F28A8</attributeRef>
+<attributeRef>1794A3F9-2681-5880-53C0-A6468FA47797</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4E4D387B-AC9E-34F9-EE8D-E66A6B6097FB" containerWithKeyObject="C5357830-5B39-F1E2-031F-D47CA5272515" localFKIndex="C4B23EF2-E463-F7FD-BA5A-BE4644DAC986" name="Compra_Proveedor_FK">
+<createdBy>JeffGeo</createdBy>
+<createdTime>2022-03-08 05:40:13 UTC</createdTime>
+<generatorID>A72EF977-D280-696F-F09E-760550FB310D</generatorID>
+<ownerDesignName>Datawarehouse</ownerDesignName>
+<referredTableLongName>Proveedor</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B93F4708-E6C5-C140-2CD8-2D22159377EC</referredTableID>
+<keyObject>D55BBBF6-3439-1118-7003-D6AEF5C3921F</keyObject>
+<referredKeyID>D55BBBF6-3439-1118-7003-D6AEF5C3921F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdProveedor</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
