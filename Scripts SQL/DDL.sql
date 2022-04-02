@@ -86,7 +86,9 @@ CREATE TABLE Producto (
 
 CREATE TABLE Tiempo (
     IdFecha INTEGER NOT NULL  PRIMARY KEY IDENTITY(1,1), 
-    Fecha   DATE NOT NULL 
+    Año     INTEGER, 
+    Mes     INTEGER, 
+    Dia     INTEGER
 );
 
 CREATE TABLE Region (

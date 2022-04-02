@@ -1,0 +1,8 @@
+Microsoft.SqlServer.Dts.Runtime.DtsRuntimeException: The connection "JEFFGEO-WIN\SQLEXPRESS.seminariodos201603047.sa" is not found. This error is thrown by Connections collection when the specific connection element is not found.
+ ---> System.Runtime.InteropServices.COMException: The connection "JEFFGEO-WIN\SQLEXPRESS.seminariodos201603047.sa" is not found. This error is thrown by Connections collection when the specific connection element is not found.
+
+   en Microsoft.SqlServer.Dts.Runtime.Wrapper.IDTSConnections100.get_Item(Object Key)
+   en Microsoft.SqlServer.Dts.Runtime.Connections.get_Item(Object index)
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en Microsoft.SqlServer.Dts.Runtime.Connections.get_Item(Object index)
+   en ST_1d6a1f054dce41b48000ae5cb3720efc.ScriptMain.Main()

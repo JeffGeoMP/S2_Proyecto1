@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">JEFFGEO-WIN</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAO4Q+QLA3q0ujduJ85dwRyQAAAAACAAAAAAAQZgAAAAEAACAAAABNyYdWJlZjIjPPB2DHFcgX7iFm2LTckuhoVL8vvibrnwAAAAAOgAAAAAIAACAAAABi2pVGp0ET9AQAFZDWVUJOEvsEzxbzCY6RnIb4UVEzZpAAAABSSSw09T2CeNxM+PnymXWzrFja/BZmvq8ycjOMeS8rzSKBtfzZjUG215c8C015cHZuCx+8SkXvv6OjpIY8G4C8fmytJvJguKubFw1opujhPwk5hD3fgtMlS+KANULGgcGBxznfThbFD1pejM2ZxyeKT970FYRaO5QOaDRD9Jq4SOOsVfruF5cBlc+NSDhDyVVAAAAAT0gKGxMrx6L0DX0/8NNISrQmCT7Z7m4Xp0yoChvatSUE+QU3yDQ/wuZXdwu2vXt1k2Im4s6qK4xeOtAI9lt1Qw==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAO4Q+QLA3q0ujduJ85dwRyQAAAAACAAAAAAAQZgAAAAEAACAAAAApJw1bmYFgdt5LAzYAXKOo66BemuNxgKWtfORgbeHpLgAAAAAOgAAAAAIAACAAAABtMiGVbmPp2rD4sewuW1t+kwMBYSBeSmfjGA4tnuqWmJAAAABOPgHYcD4NmoeXgiYVw/Sp5t92xOAV0xAoHOM3V68WdspRTroikhx9UBWKJufGmZmMg/hPZ/5ivaYZbaKM5EEHPZRbXFx77h/lPowIaetoh8Wjc1BxBsgTjns3/MQX1/CidRemC2tWIA3onYuBigpMlK6fuUYAIAB9IN5vZ17kpPRIzoYddTrOgpVbugAq8CBAAAAAhtq5qu1isn1XFX/ail3NuXa8AZp8TGEDsd6aEWxfLOQDZhz5/4CH5pQBJd2EyeMrZyCojVM9LqGkC01XSHvMIA==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -42,17 +42,17 @@
                 <SSIS:Property SSIS:Name="Name">Package</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">9</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">59</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{25BA7B29-EDF4-441E-BE74-E0362EEB7966}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{62BC9DC7-71D6-411D-891C-8CDB22B8FEE4}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
                 <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
               </SSIS:Properties>
               <SSIS:Parameters>
-                <SSIS:Parameter SSIS:Name="CM.JEFFGEO-WIN\SQLEXPRESS.seminariodos201603047.sa.ConnectByProxy">
+                <SSIS:Parameter SSIS:Name="CM.JEFFGEO-WIN.seminariodos201603047.sa.ConnectByProxy">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -67,7 +67,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.JEFFGEO-WIN\SQLEXPRESS.seminariodos201603047.sa.ConnectionString">
+                <SSIS:Parameter SSIS:Name="CM.JEFFGEO-WIN.seminariodos201603047.sa.ConnectionString">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -78,11 +78,11 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Data Source=JEFFGEO-WIN\SQLEXPRESS;User ID=sa;Initial Catalog=seminariodos201603047;Application Name=SSIS-Package-{ADECF647-6E94-4979-A56A-18FA7EB66AFE}JEFFGEO-WIN\SQLEXPRESS.seminariodos201603047.sa;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Data Source=JEFFGEO-WIN;User ID=sa;Initial Catalog=seminariodos201603047;Application Name=SSIS-Package-{49A904DC-5398-4A58-B05B-A6EBE9E97393}JEFFGEO-WIN.seminariodos201603047.sa;</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.JEFFGEO-WIN\SQLEXPRESS.seminariodos201603047.sa.ConnectUsingManagedIdentity">
+                <SSIS:Parameter SSIS:Name="CM.JEFFGEO-WIN.seminariodos201603047.sa.ConnectUsingManagedIdentity">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -97,7 +97,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.JEFFGEO-WIN\SQLEXPRESS.seminariodos201603047.sa.InitialCatalog">
+                <SSIS:Parameter SSIS:Name="CM.JEFFGEO-WIN.seminariodos201603047.sa.InitialCatalog">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -112,7 +112,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.JEFFGEO-WIN\SQLEXPRESS.seminariodos201603047.sa.Password">
+                <SSIS:Parameter SSIS:Name="CM.JEFFGEO-WIN.seminariodos201603047.sa.Password">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -126,7 +126,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.JEFFGEO-WIN\SQLEXPRESS.seminariodos201603047.sa.RetainSameConnection">
+                <SSIS:Parameter SSIS:Name="CM.JEFFGEO-WIN.seminariodos201603047.sa.RetainSameConnection">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -141,7 +141,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.JEFFGEO-WIN\SQLEXPRESS.seminariodos201603047.sa.ServerName">
+                <SSIS:Parameter SSIS:Name="CM.JEFFGEO-WIN.seminariodos201603047.sa.ServerName">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -152,11 +152,11 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">JEFFGEO-WIN\SQLEXPRESS</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">JEFFGEO-WIN</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.JEFFGEO-WIN\SQLEXPRESS.seminariodos201603047.sa.UserName">
+                <SSIS:Parameter SSIS:Name="CM.JEFFGEO-WIN.seminariodos201603047.sa.UserName">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -171,7 +171,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.JEFFGEO-WIN\SQLEXPRESS.seminariodos201603047.sa1.ConnectByProxy">
+                <SSIS:Parameter SSIS:Name="CM.JEFFGEO-WIN.seminariodos201603047.sa1.ConnectByProxy">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -186,7 +186,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.JEFFGEO-WIN\SQLEXPRESS.seminariodos201603047.sa1.ConnectionString">
+                <SSIS:Parameter SSIS:Name="CM.JEFFGEO-WIN.seminariodos201603047.sa1.ConnectionString">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -197,11 +197,11 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Data Source=JEFFGEO-WIN\SQLEXPRESS;User ID=sa;Initial Catalog=seminariodos201603047;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Data Source=JEFFGEO-WIN;User ID=sa;Initial Catalog=seminariodos201603047;Provider=SQLNCLI11.1;Auto Translate=False;</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.JEFFGEO-WIN\SQLEXPRESS.seminariodos201603047.sa1.ConnectRetryCount">
+                <SSIS:Parameter SSIS:Name="CM.JEFFGEO-WIN.seminariodos201603047.sa1.ConnectRetryCount">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -216,7 +216,7 @@
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.JEFFGEO-WIN\SQLEXPRESS.seminariodos201603047.sa1.ConnectRetryInterval">
+                <SSIS:Parameter SSIS:Name="CM.JEFFGEO-WIN.seminariodos201603047.sa1.ConnectRetryInterval">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -231,7 +231,7 @@
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.JEFFGEO-WIN\SQLEXPRESS.seminariodos201603047.sa1.ConnectUsingManagedIdentity">
+                <SSIS:Parameter SSIS:Name="CM.JEFFGEO-WIN.seminariodos201603047.sa1.ConnectUsingManagedIdentity">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -246,7 +246,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.JEFFGEO-WIN\SQLEXPRESS.seminariodos201603047.sa1.InitialCatalog">
+                <SSIS:Parameter SSIS:Name="CM.JEFFGEO-WIN.seminariodos201603047.sa1.InitialCatalog">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -261,7 +261,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.JEFFGEO-WIN\SQLEXPRESS.seminariodos201603047.sa1.Password">
+                <SSIS:Parameter SSIS:Name="CM.JEFFGEO-WIN.seminariodos201603047.sa1.Password">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -275,7 +275,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.JEFFGEO-WIN\SQLEXPRESS.seminariodos201603047.sa1.RetainSameConnection">
+                <SSIS:Parameter SSIS:Name="CM.JEFFGEO-WIN.seminariodos201603047.sa1.RetainSameConnection">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -290,7 +290,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.JEFFGEO-WIN\SQLEXPRESS.seminariodos201603047.sa1.ServerName">
+                <SSIS:Parameter SSIS:Name="CM.JEFFGEO-WIN.seminariodos201603047.sa1.ServerName">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -301,11 +301,11 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">JEFFGEO-WIN\SQLEXPRESS</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">JEFFGEO-WIN</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.JEFFGEO-WIN\SQLEXPRESS.seminariodos201603047.sa1.UserName">
+                <SSIS:Parameter SSIS:Name="CM.JEFFGEO-WIN.seminariodos201603047.sa1.UserName">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
